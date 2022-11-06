@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+/****************
+helper
+****************/
+.center {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.list-none {
+    list-style: none;
+}
+
+.list-none, .list-none li {
+    margin: 0;
+    padding: 0;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+/****************
+hot-news
+****************/
+#hot-news {
+    background-color: #292E39;
+    height: 170px;
+}
+
+.logo i {
+    font-size:55px;
+}
+
+.left-block {
+    width: 340px;
+}
+
+.lng-list {
+    display: flex;
+    padding: 8px 0 45px;
+}
+
+.lng-list li {
+    margin-right: 15px;
+    cursor: pointer;
+}
